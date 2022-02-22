@@ -47,7 +47,7 @@ git push origin main : push all changes to the origin branch in the master direc
 
 
 In git status: 
-	Changes not staged => existing files on git have been chaged but not yet pushed changes to git repo
+	Changes not staged => existing files on git have been changed but not yet pushed changes to git repo ()
 	untracked files => new files not yet pushed to git repo
 
 
@@ -60,3 +60,7 @@ lg command:
 Allows to better show logs 
 Add lg in ~/gitconfig : under [alias]
 lg = log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %>>
+
+
+	** It's useful to add an SSH key to simplife the push operation
+	** use Gitlab to create private repos instead of Github
